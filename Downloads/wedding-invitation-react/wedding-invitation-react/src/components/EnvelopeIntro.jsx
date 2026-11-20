@@ -315,7 +315,7 @@ export default function EnvelopeIntro({ onOpen }) {
                     whileTap={{ scale: 0.88 }}
                   >
                     <span className="wax-outer-ring">
-                      <span className="wax-monogram">{d.couple.monogram}</span>
+                      <span className="wax-monogram">Press here</span>
                       <span className="wax-small-detail">✧</span>
                     </span>
                   </motion.button>
