@@ -219,7 +219,7 @@ export default function EnvelopeIntro({ onOpen }) {
                     </p>
 
                     <p className="letter-place">
-                      KISHANGARH · RAJASTHAN
+                      Dausa · RAJASTHAN
                     </p>
 
                     <div className="royal-bottom-ornament">
