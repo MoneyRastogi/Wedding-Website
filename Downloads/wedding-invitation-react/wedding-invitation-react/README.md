@@ -1,21 +1,92 @@
-# Neeraj & Nidhi — Wedding Invitation
+# Divya & Aastha Wedding Invitation
 
-Responsive React + Vite wedding invitation in ivory, burgundy and antique gold.
+A responsive React + Vite digital wedding invitation built for Divya and Aastha's wedding celebration in Dausa, Rajasthan.
 
-## Run locally
-- Node.js 18+
-- `npm install`
-- `npm run dev`
-- `npm run build` for production output in `dist/`
+## Tech Stack
 
-## Customize
-Edit `src/data/weddingData.js` for names, date, family details, event copy, phone numbers and Maps URL. Replace the placeholder phone numbers (`+910000000000`) before publishing. Event timings and exact venue are not provided, so the card details are editable placeholders.
+- React 18
+- Vite 6
+- Tailwind CSS 3
+- Framer Motion
+- Lucide React
+- Custom CSS artwork and SVG decorations
 
-## Audio
-`public/ambient-wedding.wav` is an original synthesized ambient drone. Playback starts after the visitor opens the wax seal because browsers block autoplay before user interaction.
+## Features
 
-## Deploy
-Upload the contents of `dist/` to your static host or cPanel `public_html`.
+- Animated wedding envelope and wax-seal opening experience
+- Wedding countdown in Indian Standard Time
+- Couple, family and love-story sections
+- Nine interactive wedding-event invitation cards
+- Full-screen event lightboxes
+- Responsive mobile navigation
+- Call, share, Google Maps and music controls
+- Browser-blocked autoplay handled through a user-triggered opening interaction
 
-## Reference URL
-The reference URL could not be fetched in this build environment. This implementation follows the detailed design and content brief supplied in the request, rather than claiming verified pixel-for-pixel parity with the live page.
+## Requirements
+
+- Node.js 18 or newer
+- npm
+
+## Local Development
+
+```bash
+npm install
+npm run dev
+```
+
+Open the local URL printed by Vite, usually `http://localhost:5173`.
+
+## Production Build
+
+```bash
+npm run build
+```
+
+The optimized static site is written to `dist/`.
+
+To inspect the production build locally:
+
+```bash
+npm run preview
+```
+
+## Editing Wedding Information
+
+Keep the editable wedding content in:
+
+```text
+src/data/weddingData.js
+```
+
+Update this file for:
+
+- Couple names and monogram
+- Wedding date and countdown
+- Venue and Google Maps link
+- Phone and hospitality numbers
+- Family and story details
+- Event names, dates, timings and venues
+
+Phone numbers and external links should be checked before publishing.
+
+## Project Structure
+
+```text
+src/
+  components/       Reusable React sections and UI components
+  data/             Centralized wedding content
+  main.jsx          Application entry point
+  styles.css        Global invitation styling
+public/
+  ambient-wedding.wav  Background wedding audio
+```
+
+## Background Audio
+
+The audio file is served from `public/ambient-wedding.wav`. It begins only after the visitor opens the invitation because modern browsers do not allow media autoplay before user interaction.
+
+The floating sound button in the main invitation toggles mute and unmute.
+
+## Deployment
+
+Upload the contents of `dist/` to a static host or cPanel `public_html` directory. Ensure the hosting server serves `index.html` for the Vite application root.
