@@ -1,5 +1,5 @@
 export const weddingData = {
-  couple: { groom: "Golu (Divya)", bride: "Aastha", monogram: "G&A" },
+  couple: { groom: "Divya", bride: "Astha", monogram: "D&A" },
   date: {
     iso: "2026-11-26T00:00:00+05:30",
     envelope: "26 . 11 . 2026",
@@ -16,12 +16,12 @@ export const weddingData = {
   hospitalityPhone: "+919782208204",
   families: {
     groom: {
-      name: "Golu (Divya)",
+      name: "Divya",
       parents: "Mrs. Pinky & Mr. Omprakesh Sakuniya",
       grandparents: "Late Mrs. Shanti Devi & Late Mr. Ramgopal Sakuniya",
     },
     bride: {
-      name: "Aastha",
+      name: "Astha",
       parents: "Mrs. Lata & Mr. Prem Prakash Tamboliya",
       grandparents: "Late Mrs. Ram payari & Late Mr. Rameshwar Lal Tamboliya",
     },
