@@ -9,8 +9,7 @@ export const weddingData = {
     city: "Ajmer",
     state: "Rajasthan",
     venue: "Bravia Hotel, Panchsheel Nagar, Ajmer",
-    mapsUrl:
-      "https://www.google.com/maps/place/THE+RAM+LEE+GRAND/@26.910767,76.328255,17z/data=!3m1!4b1!4m9!3m8!1s0x396d8d73de3a22af:0x231c83b658e8453e!5m2!4m1!1i2!8m2!3d26.9107622!4d76.3308299!16s%2Fg%2F11tp0md3k0?entry=ttu&g_ep=EgoyMDI2MTExNi4wIKXMDSoASAFQAw%3D%3D",
+    mapsUrl: "https://maps.app.goo.gl/YD3SLrtEL1QcUdQg9",
   },
   phone: "+919782208204",
   hospitalityPhone: "+919782208204",
